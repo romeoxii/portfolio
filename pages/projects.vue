@@ -2,6 +2,7 @@
 import ArrowIconBox from "~/public/icons/ArrowIconBox.vue";
 import VueIcon from "~/public/icons/VueIcon.vue";
 import TailwindIcon from "~/public/icons/TailwindIcon.vue";
+import supabaseIcon from "~/public/icons/supabaseIcon.vue";
 </script>
 
 <template>
@@ -38,8 +39,8 @@ import TailwindIcon from "~/public/icons/TailwindIcon.vue";
                             class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
                         >
                             <img
-                                src="../assets/Images/AniTracker.png"
-                                alt="AniTracker"
+                                src="../assets/Images/celine.png"
+                                alt="Celine's Treats"
                                 class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
                             />
                             <div
@@ -51,13 +52,13 @@ import TailwindIcon from "~/public/icons/TailwindIcon.vue";
                                     <p
                                         class="font-bold text-xl text-gray-800/90 flex flex-col"
                                     >
-                                        AniTracker<span
-                                            class="font-light text-sm"
-                                            >July 2025</span
-                                        >
+                                        Celine's Treats<span
+                                            class="font-medium text-sm"
+                                            >october 2025
+                                        </span>
                                     </p>
                                     <a
-                                        href="https://ani-tracker-beta.vercel.app/"
+                                        href="https://celinestreats.vercel.app/"
                                         target="_blank"
                                         ><ArrowIconBox
                                             class="p-2 bg-gray-300/60 rounded-full"
@@ -85,6 +86,59 @@ import TailwindIcon from "~/public/icons/TailwindIcon.vue";
                             class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
                         >
                             <img
+                                src="../assets/Images/AniTracker.png"
+                                alt="AniTracker"
+                                class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
+                            />
+                            <div
+                                class="md:h-[50%] w-full flex flex-col space-y-16 p-5"
+                            >
+                                <div
+                                    class="w-full flex items-center justify-between"
+                                >
+                                    <p
+                                        class="font-bold text-xl text-gray-800/90 flex flex-col"
+                                    >
+                                        AniTracker<span
+                                            class="font-medium text-sm"
+                                            >July 2025 - September 2025
+                                        </span>
+                                    </p>
+                                    <a
+                                        href="https://ani-tracker-beta.vercel.app/"
+                                        target="_blank"
+                                        ><ArrowIconBox
+                                            class="p-2 bg-gray-300/60 rounded-full"
+                                    /></a>
+                                </div>
+                                <div
+                                    class="w-full flex flex-wrap gap-2 text-[10px]"
+                                >
+                                    <p
+                                        class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50"
+                                    >
+                                        <VueIcon />
+                                        Vuejs
+                                    </p>
+                                    <p
+                                        class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50"
+                                    >
+                                        <TailwindIcon />
+                                        tailwind
+                                    </p>
+                                    <p
+                                        class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50"
+                                    >
+                                        <supabaseIcon />
+                                        Supabase
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
+                        >
+                            <img
                                 src="../assets/Images/Space-tourism.png"
                                 alt="Space tourism"
                                 class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
@@ -99,7 +153,7 @@ import TailwindIcon from "~/public/icons/TailwindIcon.vue";
                                         class="font-bold text-xl text-gray-800/90 flex flex-col"
                                     >
                                         Space tourism website<span
-                                            class="font-light text-sm"
+                                            class="font-medium text-sm"
                                             >July 2025</span
                                         >
                                     </p>
@@ -146,7 +200,7 @@ import TailwindIcon from "~/public/icons/TailwindIcon.vue";
                                         class="font-bold text-xl text-gray-800/90 flex flex-col"
                                     >
                                         Advice generator website<span
-                                            class="font-light text-sm"
+                                            class="font-medium text-sm"
                                             >Dec 2024</span
                                         >
                                     </p>

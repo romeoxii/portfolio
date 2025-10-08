@@ -19,10 +19,10 @@ import XIcon from "~/public/icons/xIcon.vue";
                             Romeo
                         </h1>
                     </div>
-                    <p class="text-sm text-black/70">(C3R0).</p>
+                    <p class="text-sm text-black/70">(romeo.xii).</p>
                 </div>
                 <div
-                    class="p-1 rounded-full border border-black/10 bg-gray-50 text-center text-black/80 w-48 mb-8"
+                    class="p-1 rounded-full border border-black/10 bg-[#4acfff]/10 text-center text-black/80 w-48 mb-8"
                 >
                     <p>Web Developer</p>
                 </div>
