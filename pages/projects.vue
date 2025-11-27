@@ -30,18 +30,20 @@ import supabaseIcon from "~/public/icons/supabaseIcon.vue";
                             <div class="h-2 w-2 rounded-full bg-teal-500"></div>
                             <div class="h-2 w-2 rounded-full bg-teal-500"></div>
                         </div>
-                        <p class="p-2 font-semibold text-teal-500">WEB APPS</p>
+                        <p class="p-2 font-semibold text-teal-500">
+                            WEB APPS / WEBSITES
+                        </p>
                     </div>
                     <div
-                        class="grid md:grid-cols-2 grid-cols-1 h-[90%] w-full gap-3"
+                        class="grid sm:grid-cols-2 grid-cols-1 h-[90%] w-full gap-3"
                     >
                         <div
-                            class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
+                            class="h-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
                         >
                             <img
                                 src="../assets/Images/celine.png"
                                 alt="Celine's Treats"
-                                class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
+                                class="rounded-t-3xl w-full object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
                             />
                             <div
                                 class="md:h-[50%] w-full flex flex-col space-y-16 p-5"
@@ -83,12 +85,12 @@ import supabaseIcon from "~/public/icons/supabaseIcon.vue";
                             </div>
                         </div>
                         <div
-                            class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
+                            class="h-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
                         >
                             <img
                                 src="../assets/Images/AniTracker.png"
                                 alt="AniTracker"
-                                class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
+                                class="rounded-t-3xl w-full object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
                             />
                             <div
                                 class="md:h-[50%] w-full flex flex-col space-y-16 p-5"
@@ -136,12 +138,12 @@ import supabaseIcon from "~/public/icons/supabaseIcon.vue";
                             </div>
                         </div>
                         <div
-                            class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
+                            class="h-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
                         >
                             <img
                                 src="../assets/Images/Space-tourism.png"
                                 alt="Space tourism"
-                                class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
+                                class="rounded-t-3xl w-full object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
                             />
                             <div
                                 class="md:h-[50%] w-full flex flex-col space-y-16 p-5"
@@ -183,12 +185,12 @@ import supabaseIcon from "~/public/icons/supabaseIcon.vue";
                             </div>
                         </div>
                         <div
-                            class="h-96 md:w-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
+                            class="h-96 rounded-3xl flex flex-col justify-between items-center transition-all duration-300 ease-in-out overflow-hidden border border-gray-300 hover:border-teal-500"
                         >
                             <img
                                 src="../assets/Images/Advice.png"
                                 alt="Advice Gen App"
-                                class="rounded-t-3xl object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
+                                class="rounded-t-3xl w-full object-cover h-[50%] transition-all duration-600 hover:scale-105 ease-in-out"
                             />
                             <div
                                 class="md:h-[50%] w-full flex flex-col space-y-16 p-5"
