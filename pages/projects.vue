@@ -3,11 +3,15 @@ import ArrowIconBox from "~/public/icons/ArrowIconBox.vue";
 import VueIcon from "~/public/icons/VueIcon.vue";
 import TailwindIcon from "~/public/icons/TailwindIcon.vue";
 import supabaseIcon from "~/public/icons/supabaseIcon.vue";
+import { useTheme } from "~/Composables/useTheme";
+
+const { theme } = useTheme();
 </script>
 
 <template>
     <div
         class="min-h-screen w-full p-5 flex items-center justify-center font-Poppins"
+        :class="theme === 'dark' ? 'bg-black/90' : ''"
     >
         <div class="h-full md:w-4xl w-full md:p-6">
             <div class="flex flex-col items-center h-full w-full md:p-3">

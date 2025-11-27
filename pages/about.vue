@@ -9,11 +9,16 @@ import PythonIcon from "~/public/icons/PythonIcon.vue";
 import GitIcon from "~/public/icons/GitIcon.vue";
 import ArrowLeftIcon from "~/public/icons/ArrowLeftIcon.vue";
 import SupabaseIcon from "~/public/icons/supabaseIcon.vue";
+
+import { useTheme } from "~/Composables/useTheme";
+
+const { theme } = useTheme();
 </script>
 
 <template>
     <div
         class="h-screen w-full flex items-center justify-center md:p-8 py-8 px-4 text-gray-800/90 font-Poppins"
+        :class="theme === 'dark' ? 'bg-black/90 text-white' : ''"
     >
         <div class="h-full md:w-4xl w-full md:p-6">
             <div class="h-full w-full flex flex-col justify-between space-y-3">
@@ -71,37 +76,67 @@ import SupabaseIcon from "~/public/icons/supabaseIcon.vue";
                     </div>
                     <div class="flex items-center flex-wrap text-[10px] gap-2">
                         <div
-                            class="bg-gray-300/60 flex items-center gap-1 px-2 py-1 rounded-lg"
+                            class="flex items-center gap-1 px-2 py-1 rounded-lg"
+                            :class="
+                                theme === 'dark'
+                                    ? 'bg-neutral-700'
+                                    : 'bg-gray-300/60'
+                            "
                         >
                             <VueIcon />
                             <p>Vue</p>
                         </div>
                         <div
-                            class="bg-gray-300/60 flex items-center gap-1 px-2 py-1 rounded-lg"
+                            class="flex items-center gap-1 px-2 py-1 rounded-lg"
+                            :class="
+                                theme === 'dark'
+                                    ? 'bg-neutral-700'
+                                    : 'bg-gray-300/60'
+                            "
                         >
                             <TailwindIcon />
                             <p>Tailwind</p>
                         </div>
                         <div
-                            class="bg-gray-300/60 flex items-center gap-1 px-2 py-1.5 rounded-lg"
+                            class="flex items-center gap-1 px-2 py-1.5 rounded-lg"
+                            :class="
+                                theme === 'dark'
+                                    ? 'bg-neutral-700'
+                                    : 'bg-gray-300/60'
+                            "
                         >
                             <JavascriptIcon />
                             <p>Javascript</p>
                         </div>
                         <div
-                            class="bg-gray-300/60 flex items-center gap-1 px-2 py-1 rounded-lg"
+                            class="flex items-center gap-1 px-2 py-1 rounded-lg"
+                            :class="
+                                theme === 'dark'
+                                    ? 'bg-neutral-700'
+                                    : 'bg-gray-300/60'
+                            "
                         >
                             <PythonIcon />
                             <p>Python</p>
                         </div>
                         <div
-                            class="bg-gray-300/60 flex items-center gap-1 px-2 py-1 rounded-lg"
+                            class="flex items-center gap-1 px-2 py-1 rounded-lg"
+                            :class="
+                                theme === 'dark'
+                                    ? 'bg-neutral-700'
+                                    : 'bg-gray-300/60'
+                            "
                         >
                             <GitIcon />
                             <p>Git</p>
                         </div>
                         <div
-                            class="bg-gray-300/60 flex items-center gap-1 px-2 py-1 rounded-lg"
+                            class="flex items-center gap-1 px-2 py-1 rounded-lg"
+                            :class="
+                                theme === 'dark'
+                                    ? 'bg-neutral-700'
+                                    : 'bg-gray-300/60'
+                            "
                         >
                             <SupabaseIcon />
                             <p>Supabase</p>
